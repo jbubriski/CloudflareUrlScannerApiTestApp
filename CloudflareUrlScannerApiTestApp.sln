@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudflareUrlScannerApiTestApp", "ApiCaller\CloudflareUrlScannerApiTestApp.csproj", "{06DF85DC-314A-40BA-A8E7-9765A7C1CB9C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CloudflareUrlScannerApiTestApp", "CloudflareUrlScannerApiTestApp\CloudflareUrlScannerApiTestApp.csproj", "{06DF85DC-314A-40BA-A8E7-9765A7C1CB9C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
