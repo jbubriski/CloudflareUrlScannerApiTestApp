@@ -86,7 +86,7 @@ using var httpClient = new HttpClient();
 }
 
 // Create scan
-if (false && string.IsNullOrWhiteSpace(scandId))
+if (string.IsNullOrWhiteSpace(scandId))
 {
     var stopWatch = new Stopwatch();
     stopWatch.Start();
@@ -134,7 +134,7 @@ if (!string.IsNullOrWhiteSpace(scandId))
     Console.WriteLine($"Getting an existing scan...");
     Console.WriteLine($"Hitting API at: {url}");
 
-    var httpRequestMessage = new HttpRequestMessage(HttpMethod.Post, url);
+    var httpRequestMessage = new HttpRequestMessage(HttpMethod.Get, url);
 
     httpRequestMessage.Headers.Add("Authorization", $"Bearer {authKey}");
 

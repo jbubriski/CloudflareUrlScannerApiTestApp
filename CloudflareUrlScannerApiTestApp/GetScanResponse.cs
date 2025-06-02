@@ -38,7 +38,7 @@ public class ConsoleMessage
 public class Cookie
 {
     public string Domain { get; set; }
-    public long Expires { get; set; }
+    public double Expires { get; set; }
     public bool HttpOnly { get; set; }
     public string Name { get; set; }
     public string Path { get; set; }
@@ -310,7 +310,7 @@ public class RadarRankData
 {
     public string Bucket { get; set; }
     public string Hostname { get; set; }
-    public int Rank { get; set; }
+    public int? Rank { get; set; }
 }
 
 public class WappaProcessor
